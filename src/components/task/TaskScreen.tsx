@@ -3,7 +3,7 @@ import { NoteScreen } from '../notes/NoteScreen';
 import { Sidebar } from './Sidebar';
 // import { NothingSelected } from "./NothingSelected";
 
-export const taskScreen = () => {
+export const TaskScreen = () => {
   return (
     <div className="task__main-content">
       <Sidebar />
