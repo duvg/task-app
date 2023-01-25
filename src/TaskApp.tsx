@@ -1,5 +1,10 @@
 import React from 'react';
+import { AppRouter } from './routers/AppRouter';
 
 export const TaskApp: React.FC = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <AppRouter />
+    </div>
+  );
 };

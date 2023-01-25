@@ -1,7 +1,7 @@
 {
     "extends": [
         "standard-with-typescript",
-        "prettier/@typescript-eslint",
+        "plugin:react/recommended",
         "plugin:prettier/recommended"
     ],
     "plugins": [
@@ -44,8 +44,7 @@
                 "endOfLine": "auto",
                 "arrowParens": "avoid"
             }
-        ],
-
+        ]
     },
     "overrides": [
         {
