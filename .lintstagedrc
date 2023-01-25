@@ -1,6 +1,6 @@
 {
-    "*.ts": [
-        "eslint 'src/**'",
+    "*.{ts,tsx,js}": [
+        "eslint --max-warnings 0",
         "git add"
     ]
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -6,7 +6,7 @@ import {
   Redirect,
 } from 'react-router-dom';
 import { taskScreen } from '../components/task/TaskScreen';
-import { AuthRouter } from "./AuthRouter";
+import { AuthRouter } from './AuthRouter';
 
 export const AppRouter = () => {
   return (
